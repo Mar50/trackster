@@ -20,4 +20,5 @@ header{
 #sort-by-nav{
   color: rgb(255, 255, 255);
   background-color: rgb(104,0,255);
+  list-style: none;
 }

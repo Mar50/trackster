@@ -20,29 +20,50 @@
 
 <header>
   <div class="container">
-    <div class="page-header">
-      <div class="navbar-text">
-        <h1>trackster</h1>
+    <div class="row">
+      <!--GRID OFFSET-->
+      <div class="col-sm-1">
       </div>
 
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Whatcha lookin' for?" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-      </form>
+      <div class="col-sm-7">
+        <h1>trackster</h1>
+      </div>
+      <div class="col-sm-2">
+        <form class="form-inline">
+        <input id="search_input" class="form-control mr-sm-2" type="search" placeholder="Whatcha lookin' for?" aria-label="Search">
+        </form>
+      </div>
+      <div class="col-xs-1">
+        <form class="form-inline">
+        <button id="search-button" class="btn btn-outline-success my-1 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
     </div>
   </div>
 </header>
 
 <body>
-  <div id="sort-by-nav"class="container inline-nav">
-    <ul class="list-inline">
-      <li class="nav-item">#<li>
-      <li class="nav-item">Song<li>
-      <li class="nav-item">Artist<li>
-      <li class="nav-item">Album<li>
-      <li class="nav-item">Popularity<li>
-      <li class="nav-item">Length<li>
-    </ul>
+  <div class="container-fluid text-center">
+    <div id="sort-by-nav" class="row">
+        <div class="col-xs-1">
+          <li class="nav-item">#<li>
+        </div>
+        <div class="col-xs-2">
+          <li class="nav-item">Song<li>
+        </div>
+        <div class="col-xs-3">
+          <li class="nav-item">Artist<li>
+        </div>
+        <div class="col-xs-2">
+          <li class="nav-item">Album<li>
+        </div>
+        <div class="col-xs-2">
+          <li class="nav-item">Popularity<li>
+        </div>
+        <div class="col-xs-2">
+          <li class="nav-item">Length<li>
+        </div>
+    </div>
   </div>
 </body>
 </html>
